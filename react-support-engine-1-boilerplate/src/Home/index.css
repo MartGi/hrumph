@@ -1,0 +1,299 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+* {
+    font-family: Avenir !important;
+  }
+  html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+  }
+  main {
+    display: block;
+  }
+
+  .container-fluid {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 100%;
+  }
+
+  .flex {
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+
+  body,
+  html {
+    min-height: 100%;
+  }
+  body *,
+  html * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0 auto;
+    overflow-x: hidden !important;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+      sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  }
+  div {
+    border: 0;
+  }
+
+  img {
+    max-width: 100%;
+    border-style: none;
+    vertical-align: middle;
+  }
+  video {
+    max-width: 100%;
+  }
+  hr {
+    width: 100%;
+    display: inline-block;
+  }
+  button {
+    cursor: pointer;
+  }
+  ul.normalize {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+
+  sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+  }
+  sub {
+    top: 0.4em;
+  }
+  code {
+    padding: 1px 3px;
+    border-radius: 3px;
+    font-family: monospace;
+    overflow-wrap: break-word;
+    background: #f1f1f1;
+  }
+  .color-overlay,
+  .gradient-overlay {
+    overflow: hidden;
+    position: relative;
+  }
+  .color-overlay > *,
+  .gradient-overlay > * {
+    position: relative;
+  }
+  .color-overlay:before,
+  .gradient-overlay:before {
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .video-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    object-fit: cover;
+    border-radius: inherit;
+  }
+  .video-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+
+.ce-reads-row {
+    display: none !important;
+}
+
+.ce-their-message-sender {
+    display: none !important;
+}
+
+.ce-their-message-avatar {
+    display: none !important;
+}
+
+.ce-their-message-attachments-container {
+    height: 100% !important;
+    width: 100% !important;
+    padding-left: 0px !important;
+}
+
+ce-their-message-images-container {
+    height: 1080px !important;
+    width: 100% !important;
+    padding-left: 0px !important;
+}
+
+img {
+    height: auto !important;
+    max-width: 100%;
+}
+
+ce-my-message-attachments-container {
+    height: 1080px !important;
+    width: 100% !important;
+}
+
+
+
+.ce-message-and-date {
+    position: relative;
+    height: 100% !important;
+    max-width: 100%;
+}
+
+
+.ce-their-message {
+        height: 100% !important;
+        width: 100% !important;
+        text-align: bottom;
+        padding-bottom: 0px;
+}
+
+ce-their-message-images-container{
+        height: 100% !important;
+        width: 100% !important;
+}
+
+.ce-photo-thumbnail {
+        height: 124px !important;
+        width: 124px !important;
+}
+
+.ce-message-timestamp .ce-their-message-timestamp {
+    display: none !important;
+}
+.ce-their-message-files-container {
+    display: none !important;
+}
+.ce-their-message-row {
+        height: 100% !important;
+        width: 100% !important;
+}
+
+
+
+/*is on mobile - vertical - adminpage v */
+
+@media only screen and (max-width: 414px) {
+    .ce-chat-list-column {
+        display: none;
+    }
+    .ce-settings-column{
+        display: none;
+    }
+    .ce-chat-feed-column {
+        display: inline !important;
+    }
+}
+/*is on mobile - horisontal - adminpage */
+@media only screen and (max-width: 736px) {
+    .ce-chat-feed-column {
+        display: none;
+    }
+        .ce-wrapper {
+            width: 100vw !important;
+            flex: 100%;
+        }
+
+    .ce-settings-column {
+        box-sizing: border-box !important;
+        min-height: 1px !important;
+        float: right !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        width: 50% !important;
+        flex: 50% !important;
+        max-width: 50% !important;
+        margin-left: 0% !important;
+        right: auto !important;
+        height: calc(100vh - 20px) !important;
+    }
+    .ce-chat-list-column {
+        box-sizing: border-box !important;
+        min-height: 1px !important;
+        float: right !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        width: 50vw !important;
+        flex: 50% !important;
+        max-width: 50% !important;
+        margin-left: 0% !important;
+        right: auto !important;
+        height: calc(100vh - 20px) !important;
+    }
+.ce-wrapper {
+        width: 100vw !important;
+        flex: 100%;
+    }
+
+}
+
+/*posterpage fullscreen */
+@media only screen and (min-height: 1060px) {
+.ce-message-form-container{
+    display:none !important;
+}
+.transition-3{
+    display:none !important;
+}
+div[id^="ce-message"] {
+    height: 100vh !important;
+    width: 100vw !important;
+}
+
+img {
+width: 100vw !important;
+  position: fixed;
+  bottom: 0;
+text-align: center !important;
+display: inline !important;
+object-fit: cover !important;
+border-radius: 0em !important;
+padding-right: 0px !important;
+height: 100vw !important;
+max-height: 100% !important;
+max-width: 100% !important;
+min-height: 100px !important;
+min-width: 100px !important;
+border: 0px !important;
+}
+
+#ce-scroll-down-bar {
+    display: none !important;
+}
+
+.ce-their-message-row {
+    padding-left: 0px;
+}
+}
+
+
+

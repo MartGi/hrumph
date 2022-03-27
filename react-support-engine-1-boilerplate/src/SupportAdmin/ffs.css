@@ -1,0 +1,66 @@
+/*Chatfeed title - tekst på toppen av feeden*/
+.ce-feed-container-top {display: none !important;}
+.ce-chat-title {display: none !important}
+
+/* new chat welcome text - fjern "-text" fra linjen under, så fjerner du gifen */
+#ce-ice-breaker {display: none !important;}
+
+/*Chat attributes - Bold, italic, href osv.*/
+.ql-bold {display: none !important;}
+.ql-italic {display: none !important;}
+.ql-underline {display: none !important;}
+.ql-strike {display: none !important;}
+.ql-code {display: none !important;}
+.ql-link {display: none !important;}
+
+/*text input field*/
+.quill{ display: none !important; }
+
+.ce-message-date-text { display: none !important; }
+.ce-feed-container-bottom { display: none !important }
+
+.ql-toolbar {
+    position: relative;
+
+    height: 40px;
+    width:100%;
+}
+
+.anticon {
+background: none;
+border: none;
+cursor: pointer;
+display: inline-block;
+float: right;
+height: 24px;
+padding: 4px 5px;
+width: 28px;
+color: rgb(68, 68, 68);
+}
+
+.ce-my-message {
+        height: 100vh;
+        width: 100%
+}
+
+.ce-quill-container {
+    background-color:transparent !important;
+    zIndex: -10;
+}
+.ce-my-message-attachments-container {
+      position: absolute;
+      bottom: 0px;
+      height: 100vh;
+      width: 100%
+}
+img {
+
+}
+
+.ce-chat-engine {
+    height: 100vh !important;
+}
+
+.ce-wrapper {
+ height: 100vh !important;
+}
