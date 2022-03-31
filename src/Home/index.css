@@ -257,7 +257,7 @@ ce-their-message-images-container{
 }
 
 /*posterpage fullscreen */
-@media only screen and (min-height: 1060px) {
+@media only screen and (min-height: 889px) {
 .ce-message-form-container{
     display:none !important;
 }
